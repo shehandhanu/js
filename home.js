@@ -88,5 +88,10 @@ fruits.unshift('kiwi'); //add first item
 console.log(fruits);
 
 
+let vegetables = ['cabage', 'beens', 'carrot'];
+
+let allGroceries = fruits.concat(vegetables);
+
+console.log(allGroceries);
 
 
