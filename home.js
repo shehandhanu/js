@@ -43,7 +43,7 @@ function name(name) {
 
 //Strings
 
-let fruit = 'banana';
+let fruit = 'banana,apple,orage,berry';
 
 let morefruit = 'banana\napple'
 
@@ -55,6 +55,38 @@ console.log(fruit.indexOf('b'));
 
 console.log(fruit.slice(2, 6));
 
-console.log(fruit.toUpperCase(fruit));
+console.log(fruit.toUpperCase());
+
+console.log(fruit.charAt(3)); //character at
+
+console.log(fruit.split(',')); //split comma
+
+//arrays 
+
+let fruits = ['banana', 'apple', 'orange', 'pinaapple']; //defina array
+
+console.log(fruits[2]); //call array
+
+for (let i = 0; i < fruits.length; i++) {
+    console.log(fruits[i]);
+}
+
+console.log('to string ', fruits.toString());
+console.log(fruits.join(' * '));
+
+console.log(fruits.pop(), fruits); //remove last item
+console.log(fruits.push('apple'), fruits); // appends
+
+fruits[4] = 'guana';
+
+console.log(fruits);
+
+// fruits.shift(); //skip first item
+// console.log(fruits);
+
+fruits.unshift('kiwi'); //add first item
+console.log(fruits);
+
+
 
 
