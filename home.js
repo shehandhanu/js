@@ -21,3 +21,40 @@ num1 = num1 + 1;
 console.log(num1);
 
 //function
+
+function fun() {
+    console.log('this is the fuctoin');
+}
+
+// function name() {
+//     var x = prompt('whats your name');
+//     document.getElementById('someText').innerHTML = 'Hello ' + x;
+// }
+
+// name();
+
+function name(name) {
+    document.getElementById('someText').innerHTML = 'Hello ' + name;
+}
+
+// var x = prompt('whats your name');
+
+// name(x)
+
+//Strings
+
+let fruit = 'banana';
+
+let morefruit = 'banana\napple'
+
+console.log(morefruit); //new line
+
+console.log(fruit.length); // lenth
+
+console.log(fruit.indexOf('b'));
+
+console.log(fruit.slice(2, 6));
+
+console.log(fruit.toUpperCase(fruit));
+
+
