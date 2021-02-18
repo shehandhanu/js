@@ -94,4 +94,8 @@ let allGroceries = fruits.concat(vegetables);
 
 console.log(allGroceries);
 
+console.log(allGroceries.reverse());
+
+let number = [40, 5, 10, 15, 20, 25, 30];
+console.log(number.sort(function (a, b) { return a - b }));
 
