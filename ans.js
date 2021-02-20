@@ -1,4 +1,54 @@
 
+let sayHello = function () {
+    console.log("Hello World!");
+
+    return "sliit";
+}
+
+let acceptMr = function (name) {
+    console.log(`Hi ${name}`);
+}
+
+acceptMr(sayHello());
+
+/////////////////////////////////
+
+let student = {
+    first: 'first name',
+    last: 'last name',
+    age: 25,
+    height: 170,
+    studentInfor: function () {
+        document.write("I am " + this.first + " " + this.last + " and I am " + this.age + " years old")
+    }
+};
+
+student.studentInfor();
+
+//////////////////////////////
+
+window.vehicleName = "Car";
+
+function printVehicleName() {
+    document.write(window.vehicleName);
+}
+
+let vehicle = {
+    vehicleName: "Van",
+    getVehicleName: function () {
+        // return this.vehicleName;
+        document.write(this.vehicleName);
+    }
+}
+
+printVehicleName();
+document.write("<br>");
+vehicle.getVehicleName();
+document.write("<br>");
+document.write(this.vehicleName);
+
+//////////////////////////////
+
 taxPer = 0.2;
 
 let tax = (function () {
