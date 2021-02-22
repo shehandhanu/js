@@ -23,6 +23,8 @@ function getdata(id, callback) {
     }, 3000);
 };
 
+//i'm testing git merging
+
 const items = getdata(1, items => {
     console.log(items);
 });
